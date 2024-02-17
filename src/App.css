@@ -1,0 +1,298 @@
+.App {
+  background-color: #0a0f0d; /* Match the background color to the design */
+  color: white;
+}
+
+
+
+.navbar {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  /* Other styling as necessary */
+}
+.btn{
+  background-color:blue;
+  border-radius:  50px;
+  color:white;
+}
+.nav-links{
+  
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  /* Other styling as necessary */
+}
+
+.cta-button {
+  background-color: #0f62fe; /* Match the button color to the design */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  /* Other styling as necessary */
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  text-align:center;
+}
+
+.hero-section p {
+  text-align:center;
+}
+
+/* Add styles for the illustration component */
+
+.issues-resolved {
+  background-color: #fff; 
+  padding: 2rem;
+  color: #333;
+  text-align:center;
+}
+
+.issues-resolved h2 {
+  font-size: 2rem; /* Adjust as needed */
+  margin-bottom: 1rem;
+  color: #000; /* Assuming black for headings */
+}
+
+.issues-resolved ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.issues-resolved ul li {
+  font-size: 1rem; /* Adjust as needed */
+  margin-bottom: 0.5rem;
+  line-height: 1.5; /* Adjust for readability */
+}
+
+.issues-resolved hr {
+  border: none;
+  height: 2px;
+  background-color: #ccc; /* Adjust to match design */
+  margin-top: 2rem;
+}
+
+
+
+.methodology {
+  background-color: #f8f8f8; /* Adjust to match design */
+  padding: 2rem;
+  color: #333;
+}
+
+.methodology h2 {
+  font-size: 2rem; /* Adjust as needed */
+  margin-bottom: 1rem;
+  color: #000; /* Assuming black for headings */
+  text-align:center;
+
+}
+
+.methodology p {
+  font-size: 1rem; /* Adjust as needed */
+  margin-bottom: 2rem;
+  text-align:center;
+}
+
+.methodology-images {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.methodology-images img {
+  width: 100%; /* Adjust as needed */
+  max-width: 250px; /* Adjust based on layout and image size */
+  margin-right: 1rem;
+}
+
+/* Last image should not have margin-right */
+.methodology-images img:last-child {
+  margin-right: 0;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .methodology-images {
+    flex-direction: column;
+  }
+
+  .methodology-images img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .methodology-images img:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+.previous-experience {
+  background-color:black; /* Assuming a white background */
+  color: white; /* Assuming dark text for the content */
+  padding: 2rem;
+}
+
+.previous-experience h2 {
+  font-size: 2.5rem; /* Adjust as needed */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: space-around; /* Or use another layout like grid */
+  margin-bottom: 2rem;
+}
+
+/* Styles for the call-to-action section */
+.cta-section {
+  text-align: left;
+  padding: 2rem;
+  background-color: blue; /* Dark background as per design */
+  color: white;
+}
+
+.cta-section h3 {
+  font-size: 2rem; /* Adjust as needed */
+  margin-bottom: 1rem;
+}
+
+.connect-now {
+  background-color: #0f62fe; /* Button color as per design */
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px; /* Optional, if you want rounded corners */
+}
+
+/* Add any media queries for responsiveness as needed */
+
+
+.footer {
+  background-color: #0a0f0d; /* Dark background as per design */
+  color: white;
+  padding: 2rem;
+  font-size: 0.9rem;
+  display: flex;
+ /* width:100%; */
+}
+
+.footer-content {
+  display: inline-flex;
+  justify-content: space-between;
+  width:100%;
+
+}
+
+.footer-section h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-section {
+  /* Styles for footer sections */
+  /* text-align:left; */
+  width:100%;
+
+}
+
+.footer-bottom {
+  text-align: left;
+  margin-top: 2rem;
+  /* Additional styles for bottom footer */
+}
+
+/* Add any media queries for responsivene
+ss as needed */
+
+
+.process-highlights {
+  background-color: #f9f9f9; /* This should match the background color of the section */
+  padding: 2rem;
+  color: #333; /* Adjust text color as needed */
+}
+
+.process-highlights h2 {
+  font-size: 1.8rem; /* Adjust font size as needed */
+  margin-bottom: 0.5rem;
+  text-align:center;
+
+  color: #000; /* Heading color */
+}
+
+.process-highlights p {
+  margin-bottom: 2rem; /* Space between paragraph and sections */
+  text-align:center;
+
+}
+
+.highlight-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* This creates a responsive grid layout */
+  gap: 1rem; /* Adjust space between columns as needed */
+}
+
+.highlight h3 {
+  font-size: 1.2rem; /* Adjust font size as needed */
+  margin-bottom: 0.5rem;
+}
+
+.highlight p {
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
